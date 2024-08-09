@@ -20,6 +20,10 @@ export default {
         300: "#5C5C5C",
       },
     },
+    fontFamily: {
+      sans: ["Satoshi", "sans-serif"],
+      serif: ["Commissioner", "serif"],
+    },
   },
   plugins: [],
 };

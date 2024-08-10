@@ -5,7 +5,9 @@ function App() {
   return (
     <div>
       <Header />
-      <About />
+      <div className="section-container">
+        <About />
+      </div>
     </div>
   )
 }

@@ -24,6 +24,23 @@ export default {
       sans: ["Satoshi", "sans-serif"],
       serif: ["Commissioner", "serif"],
     },
+    fontSize: {
+      "2xl": "1.5rem",
+      "4xl": "2.5rem",
+    },
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }) {
+      const newUtilities = {
+        ".section-container": {
+          boxSizing: "border-box",
+          paddingTop: "64px",
+          paddingBottom: "24px",
+          height: "100vh",
+          minHeight: "800px",
+        },
+      };
+      addUtilities(newUtilities, ["responsive"]);
+    },
+  ],
 };

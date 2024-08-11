@@ -38,6 +38,7 @@ export default {
           paddingBottom: "24px",
           height: "100vh",
           minHeight: "800px",
+          overflow: "auto",
         },
       };
       addUtilities(newUtilities, ["responsive"]);

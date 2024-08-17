@@ -1,3 +1,5 @@
+import { GithubIcon, LinkedinIcon } from "../components/icons"
+
 const About = () => {
   return (
     <div id="About" className="px-4 lg:px-6 space-y-6 lg:flex gap-6 items-center min-h-full place-content-center">
@@ -13,8 +15,12 @@ const About = () => {
           </p>
         </div>
         <div className="flex gap-2">
-          <img src="/github.svg" alt="Github Icon" />
-          <img src="/linkedin.svg" alt="LinkedIn Icon" />
+          <a href="https://github.com/RoyHuamanAvila" title="Github">
+            <GithubIcon />
+          </a>
+          <a href="https://www.linkedin.com/in/royhuamanavila/" title="Linkedin">
+            <LinkedinIcon />
+          </a>
         </div>
         <button className="bg-primary-100 text-background-100 w-full lg:w-auto rounded-lg py-2 px-2 font-medium flex place-content-center gap-1">
           <img src="/doc.svg" alt="CV Icon" /> Conoce mi CV

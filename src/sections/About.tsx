@@ -2,12 +2,12 @@ import { GithubIcon, LinkedinIcon } from "../components/icons"
 
 const About = () => {
   return (
-    <div id="About" className="px-4 lg:px-6 space-y-6 lg:flex gap-6 items-center min-h-full place-content-center">
+    <div id="About" className="space-y-6 lg:flex gap-6 items-center min-h-full place-content-center">
       <div className="space-y-6 lg:order-2">
         <div className="mt-4 space-y-2">
-          <p className="text-background-300 tracking-[0.20rem] text-sm">- MI NOMBRE ES</p>
+          <p className="label-section">- MI NOMBRE ES</p>
           <h1 className="text-2xl lg:text-4xl font-medium text-background-300"><span className="text-primary-100">Roy Huaman</span> - <span className="text-complementary-100">Frontend Developer</span></h1>
-          <p className="text-gray-100 lg:max-w-[500px]">
+          <p className="paragraph-section lg:max-w-[500px]">
             ¡Bienvenido! Soy un entusiasta de la programación. Desde siempre me ha fascinado entender cómo funciona el software.
             Al codificar, siento que tengo la libertad de explotar al máximo mi creatividad, creando código sólido y profesional.
             Me encanta mostrar los resultados a los usuarios, lo que me apasiona de esta área. Estoy comprometido con sacar

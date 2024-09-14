@@ -32,13 +32,25 @@ export default {
   plugins: [
     function ({ addUtilities }) {
       const newUtilities = {
-        ".section-container": {
+        ".sections-container": {
           boxSizing: "border-box",
-          paddingTop: "64px",
-          paddingBottom: "24px",
-          height: "100vh",
-          minHeight: "800px",
-          overflow: "auto",
+          minHeight: "100vh",
+          padding: "4rem 1rem 1.5rem 1rem",
+        },
+        ".label-section": {
+          color: "#5C5C5C",
+          fontSize: "1rem",
+          letterSpacing: "0.25em",
+        },
+        ".title-section": {
+          color: "#00FF99",
+          fontSize: "1.5rem",
+          fontWeight: "500",
+        },
+        "paragraph-section": {
+          color: "#DADADA",
+          fontSize: "1rem",
+          lineHeight: "1.5",
         },
       };
       addUtilities(newUtilities, ["responsive"]);

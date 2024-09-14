@@ -47,7 +47,7 @@ export default {
           fontSize: "1.5rem",
           fontWeight: "500",
         },
-        "paragraph-section": {
+        ".paragraph-section": {
           color: "#DADADA",
           fontSize: "1rem",
           lineHeight: "1.5",

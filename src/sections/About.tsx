@@ -2,7 +2,7 @@ import { GithubIcon, LinkedinIcon } from "../components/icons"
 
 const About = () => {
   return (
-    <div id="About" className="space-y-6 lg:flex gap-6 items-center min-h-full place-content-center">
+    <div id="About" className="space-y-6 lg:flex gap-6 items-center min-h-[calc(100dvh-4rem)] place-content-center">
       <div className="space-y-6 lg:order-2">
         <div className="mt-4 space-y-2">
           <p className="label-section">- MI NOMBRE ES</p>

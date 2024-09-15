@@ -36,7 +36,7 @@ const About = () => {
           <img src="/tailwind.svg" alt="Tailwind Icon" />
         </div>
       </div>
-      <div className="border-2 border-background-300 overflow-hidden rounded relative lg:min-w-[500px]">
+      <div className="border-2 border-background-300 overflow-hidden rounded relative max-w-[500px] m-auto lg:m-0">
         <div className="bg-background-300 absolute w-full p-2 flex gap-1">
           <div className="bg-background-200 rounded-full size-[10px]"></div>
           <div className="bg-background-200 rounded-full size-[10px]"></div>

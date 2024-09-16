@@ -6,7 +6,7 @@ function App() {
   return (
     <div>
       <Header />
-      <div className="sections-container space-y-4">
+      <div className="sections-container space-y-7 container mx-auto">
         <About />
         <Projects />
       </div>

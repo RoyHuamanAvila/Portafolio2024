@@ -6,7 +6,7 @@ import Demo from "./icons/Demo"
 
 const ProjectCard: FC<Project> = ({ image, title, description, tags }) => {
   return (
-    <div className="w-[316px] mx-auto bg-background-200 rounded shadow-lg">
+    <div className="w-[316px] mx-auto bg-background-200 rounded shadow-lg overflow-hidden">
       <div className="bg-background-300 w-full flex gap-1 p-2">
         <div className="rounded-full size-[10px] bg-background-200"></div>
         <div className="rounded-full size-[10px] bg-background-200"></div>

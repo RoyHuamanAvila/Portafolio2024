@@ -4,3 +4,8 @@ export type Project = {
   description: string;
   tags: string[];
 };
+
+export type IconSVG = {
+  fill?: string[];
+  stroke?: string;
+};

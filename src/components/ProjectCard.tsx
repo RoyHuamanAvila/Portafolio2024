@@ -1,6 +1,8 @@
 import { FC } from "react"
 import Github from "./icons/Github"
 import { Project } from "../types"
+import Figma from "./icons/Figma"
+import Demo from "./icons/Demo"
 
 const ProjectCard: FC<Project> = ({ image, title, description, tags }) => {
   return (
@@ -22,9 +24,15 @@ const ProjectCard: FC<Project> = ({ image, title, description, tags }) => {
             <Tag key={index} name={tag} />
           ))}
         </div>
-        <div className="flex flex-row-reverse">
+        <div className="flex flex-row-reverse gap-2">
+          <a href="#" title="Demo" className="flex place-content-center items-center rounded-full bg-background-100 size-[40px]">
+            <Demo />
+          </a>
           <a href="#" title="Github" className="flex place-content-center items-center rounded-full bg-background-100 size-[40px]">
-            <Github />
+            <Github fill={["#00FF99"]} />
+          </a>
+          <a href="#" title="Figma" className="flex place-content-center items-center rounded-full bg-background-100 size-[40px]">
+            <Figma />
           </a>
         </div>
       </div>

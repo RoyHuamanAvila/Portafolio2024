@@ -40,7 +40,6 @@ export default {
           boxSizing: "border-box",
           minHeight: "100vh",
           padding: "4rem 1rem 1.5rem 1rem",
-          width: "100vw",
         },
         ".label-section": {
           color: "#5C5C5C",
